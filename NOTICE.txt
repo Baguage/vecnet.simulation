@@ -1,0 +1,11 @@
+The vecnet.simulation package
+https://github.com/jimm-domingo/vecnet.simulation
+
+Copyright 2014 University of Notre Dame
+
+Contributors:
+  Jimm Domingo, Center for Research Computing, University of Notre Dame
+
+This project is licensed under the Mozilla Public License, version 2.0 (the
+"License").  A copy of the License is in the project file "LICENSE.txt",
+and is also available at http://mozilla.org/MPL/2.0/.
