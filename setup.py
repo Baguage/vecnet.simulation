@@ -23,6 +23,10 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
 
+    # This keyword argument is a workaround to ensure the classifiers appear on PyPI if the package is created with
+    # Python 2.7.2 or earlier (see http://stackoverflow.com/q/26284609/1258514 for details).
+    provides=['vecnet.simulation'],
+
     packages=find_packages(),
     namespace_packages=['vecnet', ],
 )
