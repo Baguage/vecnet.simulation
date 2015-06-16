@@ -15,14 +15,16 @@ Example::
 """
 
 # Short strings are used to facilitate debugging
-EMOD         = 'EMOD'  #: EMOD
-OPEN_MALARIA = 'OM'    #: OpenMalaria http://code.google.com/p/openmalaria/wiki/Start
-MOCK         = 'mock'  #: fake model for testing purposes
+EMOD             = 'EMOD'  #: EMOD
+OPEN_MALARIA     = 'OM'    #: OpenMalaria http://code.google.com/p/openmalaria/wiki/Start
+MOCK             = 'mock'  #: fake model for testing purposes
+EMOD_CALIBRATION = 'ECLB'  #: Notre Dame EMOD Calibration tool
 
 ALL = (
     EMOD,
     OPEN_MALARIA,
     MOCK,
+    EMOD_CALIBRATION
 )  #: List of all known IDs.
 
 MAX_LENGTH = 4  #: For use when storing IDs in a database field, e.g. CharField(max_length=sim_model.MAX_LENGTH)
@@ -39,9 +41,10 @@ def is_valid(model_id):
 
 
 _names = {
-    EMOD:         "EMOD",
-    MOCK:         "mock",
-    OPEN_MALARIA: "OpenMalaria",
+    EMOD:             "EMOD",
+    MOCK:             "mock",
+    OPEN_MALARIA:     "OpenMalaria",
+    EMOD_CALIBRATION: "Notre Dame EMOD Calibration tool"
 }
 
 

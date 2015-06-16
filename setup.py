@@ -6,7 +6,7 @@ def read_file(name):
 
 setup(
     name="vecnet.simulation",
-    version="0.1",
+    version="0.2",
 
     # Metadata for PyPI
     description="Library for simulation models in VecNet",
